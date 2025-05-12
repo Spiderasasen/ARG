@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+}
+
+button.main{
+    margin: 10px;
+}
+
+#line{
+    border-color: black;
+}
