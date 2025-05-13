@@ -30,4 +30,12 @@ anything in < !-- here -->
   Because it just tells me what the code does
   If you want to add some comments, its what they are called, just add them in the html code
 
+# how to view it
+if you want to see the website, just download the file,
+  it will be a zip file
+unzip the file
+click on index.html (this is the homepage)
+and boom, you will see it
+*I hope*
+
 this is a fun project and im giving code to fucking retards, which is a horrbal idea.
