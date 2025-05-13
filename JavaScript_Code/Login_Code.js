@@ -7,7 +7,7 @@ function login(){
 
     //making the correct info for the user tpo put in
     const correctUsername = "admin";
-    const correctPassword = "password";
+    const correctPassword = "orien";
 
     //checking if both elements are correct
     if(username === correctUsername && password === correctPassword){
