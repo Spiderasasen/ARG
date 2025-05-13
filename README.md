@@ -24,9 +24,9 @@ if the file has .css or .js #**DONT FUCKING TOUCH IT**
 dont delate <head> or <body> elements
 
 # What you can touch
-anything inside <title>Here</title>, <p>here</p>, <h#>here</h#>
+anything inside <title>Here</title>, <<p>here</p>>, <h#>here</h#>
   These areas just affect the text that is in the paragraph
-anything in <!-- here-->
+anything in < !-- here -->
   Because it just tells me what the code does
   If you want to add some comments, its what they are called, just add them in the html code
 
