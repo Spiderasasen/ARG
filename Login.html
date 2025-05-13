@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Login</title>
     <link rel="stylesheet" type="text/css" href="CSS_Code/Main.css">
 </head>
 <body>
@@ -15,6 +15,16 @@
         <hr id="line">
     </div>
 <!--    making a user name and password for the login -->
-    <p>Login</p>
+    <div id="Login_box">
+        <h2 id="Login">Login</h2>
+        <input type="text" placeholder="Username" class="Bigger_Gap" id="Username" name="Username">
+        <br>
+        <input type="text" placeholder="Password" class="Bigger_Gap" id="Password" name="Password">
+        <br>
+        <button type="button" class="main" id="Login_Button" onclick="login()">Login</button>
+    </div>
+
+<!--    Java Script Code-->
+    <script src="JavaScript_Code/Login_Code.js"></script>
 </body>
 </html>
