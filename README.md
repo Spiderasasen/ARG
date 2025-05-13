@@ -1,7 +1,7 @@
 # ARG
 This is a game that John and I will be making. It's an ARG
 
-#**My Idea**
+# My Idea
 I want to make it where people are starving, and the only way people can eat is by killing themselves. 
 The company, when the player enters the right username and password, is making people eat other people, in short, cannibalism
   This can make the company infect more and more people, and slowly kill off more and more people until the population is stabilized again
