@@ -1,7 +1,7 @@
 # ARG
 This is a game that John and I will be making. It's an ARG
 
-# Our Idea heil hitler 
+# Our Idea  
 This is meant to be a series of secret military operations concerning all levels of the inteligensia, government and the military, the main premise is a one world government is trying to continue operation MK-ULTRA.
 
   *deadass just copying the Malthusian theory from my Geography class*
