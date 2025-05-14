@@ -1,0 +1,46 @@
+.map-image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+map-container{
+    position: relative;
+    display: inline-block;
+}
+button.asia{
+    top: 40%;
+    left: 65%;
+}
+button.africa{
+    top: 55%;
+    left: 50%;
+}
+button.north-america{
+    top: 43%;
+    left:22%;
+}
+button.south-america{
+    top: 70%;
+    left: 31%;
+}
+button.europe{
+    top: 40%;
+    left: 47%;
+}
+button.oceania{
+    top: 75%;
+    left: 75%;
+}
+.map-button{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+h1.title{
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+}
+
+button.main{
+    margin: 10px;
+    padding-right: revert-layer;
+}
+
+#line{
+    border-color: black;
+}
+#Login{
+    padding-top: 50px;
+}
+#Login_box{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+input.Bigger_Gap{
+    margin-top: 10px;
+}
+body{
+    background-color: gainsboro;
+}
