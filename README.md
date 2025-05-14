@@ -1,13 +1,10 @@
 # ARG
 This is a game that John and I will be making. It's an ARG
 
-# My Idea
-I want to make it where people are starving, and the only way people can eat is by killing themselves. 
-The company, when the player enters the right username and password, is making people eat other people, in short, cannibalism
-  This can make the company infect more and more people, and slowly kill off more and more people until the population is stabilized again
-  *deadass just copying the Malthusian theory from my Geography class*
+# Our Idea heil hitler 
+This is meant to be a series of secret military operations concerning all levels of the inteligensia, government and the military, the main premise is a one world government is trying to continue operation MK-ULTRA.
 
-# John's Idea
+  *deadass just copying the Malthusian theory from my Geography class*
 
 # Which one are  we taking
 fuck if I know
