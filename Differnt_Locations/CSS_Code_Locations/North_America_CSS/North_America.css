@@ -5,6 +5,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+.map-button{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.usa{
+    top: 95%;
+    left: 43%;
+}
 map-container{
     position: relative;
     display: inline-block;

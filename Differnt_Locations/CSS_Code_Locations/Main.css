@@ -28,3 +28,7 @@ input.Bigger_Gap{
 body{
     background-color: gainsboro;
 }
+.todo{
+    text-decoration: underline;
+    text-align: center;
+}
