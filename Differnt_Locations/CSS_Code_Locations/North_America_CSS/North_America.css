@@ -63,6 +63,10 @@ hr.gap{
     width: 900px; /* Adjust as needed */
     margin: 0;   /* Add this to reset any default margins */
 }
+a.hidden{
+    text-decoration: underline;
+    color: black;
+}
 .map-container{
     position: relative;
     display: inline-block;
