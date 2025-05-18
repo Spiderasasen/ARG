@@ -6,12 +6,12 @@ function login(){
     const password = passwordInput.value;
 
     //making the correct info for the user tpo put in
-    const correctUsername = "admin";
+    const correctUsername = "John L. Ratcliffe";
     const correctPassword = "orien";
 
     //checking if both elements are correct
     if(username === correctUsername && password === correctPassword){
-        alert("You are logged in!");
+        alert("Welcome " + username);
         console.log("You are logged in!");
     }
     else{

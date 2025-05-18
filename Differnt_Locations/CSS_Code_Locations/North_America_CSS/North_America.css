@@ -17,10 +17,53 @@
     text-align: center;
 }
 .usa{
-    top: 95%;
-    left: 43%;
+    top: 60%;
+    left: 40%;
 }
-map-container{
+/*image aligning*/
+img.Right{
+    display: block;
+    float: right;
+    width: 20%;
+    margin-right: 150px;
+}
+img.Left{
+    display: block;
+    float: left;
+    width: 20%;
+    margin-right: 25px;
+    margin-left: 100px;
+}
+/*text aligning*/
+p.right{
+    text-align: right;
+}
+p.left{
+    text-align: left;
+}
+/*text in a contaier*/
+.text-container-Right{ /*text align for the right*/
+    width: 60%;            /* Makes the div full width */
+    margin-right: auto;     /* Pushes the div to the left */
+    margin-left: 110px;         /* No left margin */
+}
+.text-container-Left{ /*text align for the Left*/
+    width: 60%;
+    margin-right: 130px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+hr.gap{
+    height: 100px;
+    border: none;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 900px; /* Adjust as needed */
+    margin: 0;   /* Add this to reset any default margins */
+}
+.map-container{
     position: relative;
     display: inline-block;
 }
