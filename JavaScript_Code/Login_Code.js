@@ -42,7 +42,7 @@ function login() {
         //just saying to loged in the consol
         console.log("You are logged in!");
     } else {
-        alert("Incorrect username or password");
+        // alert("Incorrect username or password");
         errorMessageElement.textContent += "Incorrect username or password";
         console.log("Incorrect username or password");
         //only the consol log will know which is wrong
