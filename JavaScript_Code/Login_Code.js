@@ -35,7 +35,7 @@ function login(){
 
         //redirecting to the correct page
         if(username === "John L. Ratcliffe"){
-            window.location.href = "Hidden_pages/USA_Hidden.html";
+            window.location.href = "../Hidden_pages/US_Hidden_Pages/USA_Hidden.html";
         }
 
         //just saying to loged in the consol
