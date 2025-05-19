@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="CSS_Code/Main.css">
+    <link rel="stylesheet" type="text/css" href="CSS_Code/Login.css">
 </head>
 <body>
     <div id="buttons">
@@ -16,12 +17,13 @@
     </div>
 <!--    making a user name and password for the login -->
     <div id="Login_box">
-        <h2 id="Login">Login</h2>
-        <input type="text" placeholder="Username" class="Bigger_Gap" id="Username" name="Username">
+        <h2 id="Login">Welcome Operator</h2>
+        <input type="text" placeholder="Username" id="Username" name="Username" required>
         <br>
-        <input type="text" placeholder="Password" class="Bigger_Gap" id="Password" name="Password">
+        <input type="password" placeholder="Password" id="Password" name="Password" required>
         <br>
-        <button type="button" class="main" id="Login_Button" onclick="login()">Login</button>
+        <button type="button" class="button-30" id="Login_Button" onclick="login()">Login</button>
+        <div class="error" id="error-message"></div>
     </div>
 
 <!--    Java Script Code-->

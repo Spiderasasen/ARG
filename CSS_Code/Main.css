@@ -1,3 +1,4 @@
+/*header info*/
 h1.title{
     text-align: center;
 }
@@ -5,23 +6,16 @@ h1.title{
 #buttons{
     text-align: center;
 }
-
+/*temp. button style*/
 button.main{
     margin: 10px;
     padding-right: revert-layer;
 }
-
+/*seperator*/
 #line{
     border-color: black;
 }
-#Login{
-    padding-top: 50px;
-}
-#Login_box{
-    padding-top: 50px;
-    text-align: center;
-    padding-bottom: 50px;
-}
+/*making the background nice*/
 input.Bigger_Gap{
     margin-top: 10px;
 }
