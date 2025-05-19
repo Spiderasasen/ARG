@@ -11,13 +11,14 @@ document.getElementById("Password").addEventListener("keydown", function(event){
     }
 })
 
-function login(){
+function login() {
     //getting the values from the input
     const usernameInput = document.getElementById("Username");
     const passwordInput = document.getElementById("Password");
     const username = usernameInput.value;
     const password = passwordInput.value;
 
+    //making the correct info for the user tpo put in
     //making the correct info for the user tpo put in, for AMERICA
     const correctUsername = "John L. Ratcliffe";
     const correctPassword = "orien";
@@ -29,26 +30,26 @@ function login(){
     errorMessageElement.textContent = "";
 
     //checking if both elements are correct
-    if(username === correctUsername && password === correctPassword){
+    if (username === correctUsername && password === correctPassword) {
         alert("Welcome " + username);
         errorMessageElement.textContent += "";
 
         //redirecting to the correct page
-        if(username === "John L. Ratcliffe"){
-            window.location.href = "../Hidden_pages/US_Hidden_Pages/USA_Hidden.html";
+        if (username === "John L. Ratcliffe") {
+            window.location.href = "Hidden_pages/USA_Hidden.html";
         }
 
         //just saying to loged in the consol
         console.log("You are logged in!");
-    }
-    else{
+    } else {
+        alert("Incorrect username or password");
         errorMessageElement.textContent += "Incorrect username or password";
         console.log("Incorrect username or password");
         //only the consol log will know which is wrong
-        if(!(username === correctUsername)){
+        if (!(username === correctUsername)) {
             console.log("Incorrect username");
         }
-        if(!(password === correctPassword)){
+        if (!(password === correctPassword)) {
             console.log("Incorrect password");
         }
     }
