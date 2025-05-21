@@ -2,29 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>NAME HERE</title>
+    <title>Home</title>
     <link rel="stylesheet" type="text/css" href="CSS_Code/Main.css">
     <link rel="stylesheet" type="text/css" href="CSS_Code/Report.css">
+
+<!--    java script code for the email-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+                publicKey: "3RvquX--65LAFloTA", // Replace with your actual Public Key
+            });
+        })();
+    </script>
+    <script src="JavaScript_Code/Email.js"></script>
 </head>
 
 <!--Creating the basic layout for the whole section-->
 <body>
-    <h1 class="title">ENTER NAME HERE</h1>
+    <h1 class="title">The World CIA</h1>
 
 <!--    talking about the differnt buttons, which will show differnt options-->
     <div id="buttons">
 <!--        routing to the differnt pages-->
-        <button class="button-89" onclick="window.location.href='Index.html'">Report</button>
+        <button class="button-89" onclick="window.location.href='Index.html'">Home</button>
         <button class="button-89" onclick="window.location.href='Locations.html'">Locations</button>
-        <button class="button-89" onclick="window.location.href='Outbreak.html'">Outbreak</button>
+        <button class="button-89" onclick="window.location.href='Outbreak.html'">About Us</button>
         <button class="button-89" onclick="window.location.href='Login.html'">Login</button>
         <hr id="line">
     </div>
 
 <!--    talking about reports, you can code below here john-->
     <div>
-        <img class="Right" src="">
+        <img class="Right" src="Assets/Adobe%20Express%20-%20file.png" alt="logo of the org.">
     </div>
-    <p>WTF ARE WE DOING THIS</p>
+    <div>
+        <h1 class="title">Welcome to The World CIA</h1>
+        <p>The World CIA wants to thank you for visiting and seeing what other CIA organizations are doing today.
+            If you want to learn more about us, we recommend reading the <a class="hidden" href="Outbreak.html">About Us</a> section of our website.
+            Yes, even though people might feel uneasy about us reviewing their nation's CIA organization, we want to help ensure everyone has the right to learn more about their security.
+            If you have any questions, please email us, and we will help you understand anything you need.</p>
+        <h2>Contact Us:</h2>
+        <form id="contactInfo">
+            <label for="userEmail">Your Email:</label><br>
+            <input type="email" id="userEmail" name="userEmail"><br><br>
+            <label for="userName">Your Name:</label><br>
+            <input type="text" id="userName" name="userName"><br><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject"><br><br>
+            <label for="body">Body:</label><br>
+            <textarea id="body" name="body" rows="4" cols="50"></textarea><br><br>
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
 </body>
 </html>
