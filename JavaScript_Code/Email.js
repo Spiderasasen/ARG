@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // We'll just assume success if no network error.
                 // Google Apps Script usually returns a 200 OK even in 'no-cors'.
                 console.log('Form submission initiated (check console for success/error if using CORS)');
-                formMessages.textContent = 'Email sent successfully! The World CIA has received your message.';
+                formMessages.textContent = 'Email sent successfully! The World CIA has received your message. Please remember to check your email for further notices.';
                 formMessages.style.color = 'green';
                 contactForm.reset(); // Clear the form fields
             })
