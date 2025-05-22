@@ -5,16 +5,6 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="CSS_Code/Main.css">
     <link rel="stylesheet" type="text/css" href="CSS_Code/Report.css">
-
-<!--    java script code for the email-->
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init({
-                publicKey: "8mgU7V8ebir4qUrhQ", // Replace with your actual Public Key
-            });
-        })();
-    </script>
     <script src="JavaScript_Code/Email.js"></script>
 </head>
 
@@ -42,18 +32,24 @@
             If you want to learn more about us, we recommend reading the <a class="hidden" href="Outbreak.html">About Us</a> section of our website.
             Yes, even though people might feel uneasy about us reviewing their nation's CIA organization, we want to help ensure everyone has the right to learn more about their security.
             If you have any questions, please email us, and we will help you understand anything you need.</p>
-        <h2>Contact Us:</h2>
-        <form id="contactInfo">
-            <label for="userEmail">Your Email:</label><br>
-            <input type="email" id="userEmail" name="userEmail"><br><br>
-            <label for="userName">Your Name:</label><br>
-            <input type="text" id="userName" name="userName"><br><br>
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject"><br><br>
-            <label for="body">Body:</label><br>
-            <textarea id="body" name="body" rows="4" cols="50"></textarea><br><br>
-            <button type="submit">Send Email</button>
-        </form>
+
+<!--        email code, DONT FUCKING TOUCH IT JOHN-->
+        <div>
+            <hr class="gap">
+            <h2>Contact Us:</h2>
+            <form id="contactInfo">
+                <label for="userEmail">Your Email:</label><br>
+                <input type="email" id="userEmail" name="userEmail"><br><br>
+                <label for="userName">Your Name:</label><br>
+                <input type="text" id="userName" name="userName"><br><br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject"><br><br>
+                <label for="body">Body:</label><br>
+                <textarea id="body" name="body" rows="4" cols="50"></textarea><br><br>
+                <button type="submit" id="submitButton">Send Email</button>
+            </form>
+            <div id="formMessages" style="margin-top: 15px; font-weight: bold;"></div>
+        </div>
     </div>
 </body>
 </html>

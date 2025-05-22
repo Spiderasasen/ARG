@@ -17,3 +17,85 @@ img.Left{
 h3.Right{
     text-align: right;
 }
+/* --- Styles for Form Labels --- */
+#contactInfo label {
+    display: block; /* Ensures each label is on its own line */
+    margin-bottom: 5px;
+    color: #000000; /* Light grey for good contrast on dark backgrounds */
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif; /* Clean, modern font */
+    font-size: 0.95em;
+    text-transform: uppercase; /* A bit more formal */
+    letter-spacing: 0.05em; /* Spacing for style */
+}
+
+/* --- Styles for Text Input Boxes and Textarea --- */
+#contactInfo input[type="email"],
+#contactInfo input[type="text"],
+#contactInfo textarea {
+    width: calc(100% - 20px); /* Full width minus padding for consistency */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 4px; /* Slightly rounded corners */
+    /*background-color: #2a2a2a; !* Dark background *!*/
+    /*color: #e0e0e0; !* Light text *!*/
+    font-family: 'Lucida Console', 'Monaco', monospace; /* Monospaced for a techy feel */
+    font-size: 1em;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus */
+}
+
+/* Style for textarea specifically for height */
+#contactInfo textarea {
+    min-height: 100px; /* Give it enough height for messages */
+    resize: vertical; /* Allow resizing vertically only */
+}
+
+/* Focus effect for input and textarea */
+#contactInfo input[type="email"]:focus,
+#contactInfo input[type="text"]:focus,
+#contactInfo textarea:focus {
+    border-color: #007bff; /* Bright blue border on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+    outline: none; /* Remove default browser outline */
+    /*background-color: #333; !* Slightly lighter background on focus *!*/
+}
+
+/* --- Styles for the Submit Button --- */
+#submitButton {
+    padding: 12px 25px;
+    background-color: #007bff; /* A standard blue, but you can change this! */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Hover effect for the button */
+#submitButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Active/clicked state for the button */
+#submitButton:active {
+    background-color: #004085; /* Even darker blue when clicked */
+    transform: translateY(0); /* Return to original position */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow */
+}
+
+/* Disabled state for the button (when sending) */
+#submitButton:disabled {
+    background-color: #555; /* Grey out when disabled */
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
