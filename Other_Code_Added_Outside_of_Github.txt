@@ -1,0 +1,11 @@
+so what was added. 
+  An alt account that only works for this arg. 
+    Made it to make it look like it's an actual orginazation that sent the player the email
+      Account, theworldcia22@gmail.com
+    in this account I also made another code on google's type script
+      NO SHIT WITH THE HELP OF AI 
+      code here, https://script.google.com/d/1u-BxSoL_TnvXt-uPuYL-xTC6IEMrHrXGwgD4nOJ7XSdjilFjSwYD37AL/edit?usp=sharing
+
+Things I tried but are no longer needed
+  I tired with 2 other api services that could send an email
+    one of them couldnt even see the code and the other could only recive the email
