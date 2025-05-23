@@ -15,13 +15,13 @@ function login() {
     //getting the values from the input
     const usernameInput = document.getElementById("Username");
     const passwordInput = document.getElementById("Password");
-    const username = usernameInput.value;
-    const password = passwordInput.value;
+    const enteredUsername = usernameInput.value.toLowerCase();
+    const enteredPassword = passwordInput.value.toLowerCase(); //makes the password lowercase
 
-    //making the correct info for the user tpo put in
-    //making the correct info for the user tpo put in, for AMERICA
-    const correctUsername = "John L. Ratcliffe";
-    const correctPassword = "orien";
+    //making the correct info for the user to put in, and adding multiple users, wit there repected password and page
+    const validUsers = [
+        { username: "john l. ratcliffe", password: "orien", redirectPage: "Hidden_pages/USA_Hidden.html"},
+    ];
 
     //getting the error message element
     const errorMessageElement = document.getElementById("error-message");
@@ -29,29 +29,34 @@ function login() {
     //Reset error message text
     errorMessageElement.textContent = "";
 
-    //checking if both elements are correct
-    if (username === correctUsername && password === correctPassword) {
-        alert("Welcome " + username);
-        errorMessageElement.textContent += "";
+    let isAuthenticated = false;
+    let userDisplayName = "";
+    let redirectToPage = "";
 
-        //redirecting to the correct page
-        if (username === "John L. Ratcliffe") {
-            window.location.href = "Hidden_pages/USA_Hidden.html";
+    // Loop through all valid users to check credentials
+    for (let i = 0; i < validUsers.length; i++) {
+        const user = validUsers[i];
+
+        if (enteredUsername === user.username && enteredPassword === user.password) {
+            isAuthenticated = true;
+            userDisplayName = usernameInput.value; // Use the original input for the alert
+            redirectToPage = user.redirectPage;
+            break; // Found a match, no need to check other users
         }
+    }
 
+
+    //checking if both elements are correct
+    if (isAuthenticated) {
+        alert("Welcome " + enteredUsername);
+        errorMessageElement.textContent += "";
+        window.location.href = redirectToPage;
         //just saying to loged in the consol
         console.log("You are logged in!");
     } else {
         // alert("Incorrect username or password");
         errorMessageElement.textContent += "Incorrect username or password";
         console.log("Incorrect username or password");
-        //only the consol log will know which is wrong
-        if (!(username === correctUsername)) {
-            console.log("Incorrect username");
-        }
-        if (!(password === correctPassword)) {
-            console.log("Incorrect password");
-        }
     }
 
     //clearing the input
