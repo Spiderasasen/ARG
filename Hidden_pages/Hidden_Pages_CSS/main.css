@@ -1,0 +1,19 @@
+#buttons_hidden {
+    text-align: right;
+}
+.logs{
+    text-align: left;
+}
+.Header{
+    text-decoration: underline;
+}
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+hr.gap{
+    height: 50px;
+    border: none;
+}
