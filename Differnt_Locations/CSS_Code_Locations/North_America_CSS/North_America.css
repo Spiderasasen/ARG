@@ -20,6 +20,10 @@
     top: 60%;
     left: 40%;
 }
+.canada{
+    top: 35%;
+    left: 45%;
+}
 /*image aligning*/
 img.Right{
     display: block;
@@ -33,6 +37,12 @@ img.Left{
     width: 20%;
     margin-right: 25px;
     margin-left: 100px;
+}
+img.CanadaRight{
+    display: block;
+    float: right;
+    width: 35%;
+    margin-right: 70px;
 }
 /*text aligning*/
 p.right{
