@@ -32,7 +32,10 @@
     </div>
     <hr class="gap">
     <div>
-        <img src="https://www.canada.ca/en/security-intelligence-service/corporate/director/_jcr_content/par/mwscolumns/colpar-1/mwsadaptiveimage/image.img.jpg/1729877443825.jpg" class="Left" alt="Daniel Rogers">
+        <div>
+            <img id="myImage" src="https://www.canada.ca/en/security-intelligence-service/corporate/director/_jcr_content/par/mwscolumns/colpar-1/mwsadaptiveimage/image.img.jpg/1729877443825.jpg" class="Left" alt="Daniel Rogers">
+            <audio id="myAudio" src="../../Assets/morse_cameron.wav" preload="auto"></audio>
+        </div>
         <div class="text-container-Left">
             <p><strong><a href="https://www.canada.ca/en/security-intelligence-service/corporate/director.html" class="hidden">Daniel Rogers</a>:  Director of the CSIS</strong>
                 <br>
@@ -47,5 +50,13 @@
                 He was awarded the Queen Elizabeth II Diamond Jubilee Medal in 2012</p>
         </div>
     </div>
+<!--    js code-->
+    <script>
+        document.getElementById("myImage").addEventListener("click", function(){
+            var audio = document.getElementById("myAudio");
+            audio.currentTime=0;
+            audio.play();
+        });
+    </script>
 </body>
 </html>

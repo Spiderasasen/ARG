@@ -21,6 +21,7 @@ function login() {
     //making the correct info for the user to put in, and adding multiple users, wit there repected password and page
     const validUsers = [
         { username: "john l. ratcliffe", password: "orien", redirectPage: "Hidden_pages/USA_Hidden.html"},
+        {username: "daniel rogers", password: "cameron", redirectPage: "Hidden_pages/North_America_Hidden/Canada_Hidden.html"},
     ];
 
     //getting the error message element
