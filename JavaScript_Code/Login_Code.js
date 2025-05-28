@@ -24,6 +24,7 @@ function login() {
         {username: "daniel rogers", password: "cameron", redirectPage: "Hidden_pages/North_America_Hidden/Canada_Hidden.html"},
         {username: "slhyu aol aybao", password: "secrets", redirectPage: "Hidden_pages/index and outbreak, Hidden/outbreak_hidden.html"},
         {username: "learn the truth", password: "secrets", redirectPage: "Hidden_pages/index and outbreak, Hidden/outbreak_hidden.html"},
+        {username: "william j. burns", password: "ultra", redirectPage: "Hidden_pages/Other_American_Hidden/William J. Burns.html"},
     ];
 
     //getting the error message element
@@ -51,7 +52,7 @@ function login() {
 
     //checking if both elements are correct
     if (isAuthenticated) {
-        alert("Welcome " + enteredUsername);
+        alert("Welcome " + usernameInput.value);
         errorMessageElement.textContent += "";
         window.location.href = redirectToPage;
         //just saying to loged in the consol
