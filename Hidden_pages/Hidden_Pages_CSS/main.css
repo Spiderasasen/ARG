@@ -17,3 +17,8 @@ hr.gap{
     height: 50px;
     border: none;
 }
+h1,h2.center{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
