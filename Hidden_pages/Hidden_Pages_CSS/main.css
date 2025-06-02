@@ -22,3 +22,14 @@ h1,h2.center{
     text-decoration: underline;
     font-style: italic;
 }
+span.redacted{
+    color: black;
+    background-color: black;
+    padding: 0 5px;
+    border-radius: 2px;
+/*    hidding the info*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
