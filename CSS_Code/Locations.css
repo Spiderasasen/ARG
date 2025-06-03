@@ -7,30 +7,33 @@
 }
 .map-container{
     position: relative;
-    display: inline-block;
+    display: block;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*max-width: 100%;*/
 }
 button.asia{
-    top: 40%;
+    top: 25%;
     left: 65%;
 }
 button.africa{
-    top: 55%;
+    top: 45%;
     left: 50%;
 }
 button.north-america{
-    top: 43%;
+    top: 28%;
     left:22%;
 }
 button.south-america{
-    top: 70%;
+    top: 55%;
     left: 31%;
 }
 button.europe{
-    top: 40%;
+    top: 23%;
     left: 47%;
 }
 button.oceania{
-    top: 75%;
+    top: 65%;
     left: 75%;
 }
 .map-button{
