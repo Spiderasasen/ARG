@@ -5,8 +5,10 @@
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="CSS_Code/Main.css">
     <link rel="stylesheet" type="text/css" href="CSS_Code/Login.css">
+    <link rel="stylesheet" typr="text/css" href="CSS_Code/Sign_Up.css">
 </head>
 <body>
+    <h1 class="title">Login</h1>
     <div id="buttons">
         <!--        routing to the differnt pages-->
         <button class="button-89" onclick="window.location.href='home.html'">Home</button>
@@ -23,6 +25,7 @@
         <input type="password" placeholder="Password" id="Password" name="Password" required>
         <br>
         <button type="button" class="button-30" id="Login_Button" onclick="login()">Login</button>
+        <p id="sign-in">Don't have an account <a id="sign-in-link" href="Sign-in-pages/differnt-accounts.html">Sign in</a> here</p>
         <div class="error" id="error-message"></div>
     </div>
 
