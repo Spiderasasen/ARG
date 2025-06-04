@@ -58,3 +58,47 @@
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
 }
+label.text{
+    font-weight: bold;
+    font-size: 25px;
+}
+/*input*/
+input[type = "text"], input[type = "password"]{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    margin-bottom: 15px;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+/*dropdown*/
+#department, /* Target the specific select element from your example */
+select { /* Target all select elements on the page */
+    width: calc(29% - 20px); /* Matches your text inputs' width for consistency */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Darker border, consistent with inputs */
+    color: gray;
+    border-radius: 4px; /* Slightly rounded corners */
+    font-family: 'Lucida Console', 'Monaco', monospace; /* Consistent font */
+    font-size: 1em;
+    box-sizing: border-box; /* Ensures padding/border are included in the width */
+    cursor: pointer; /* Indicates it's clickable */
+    -webkit-appearance: none; /* For Chrome, Safari, Opera */
+    -moz-appearance: none;    /* For Firefox */
+    appearance: none;         /* Standard property */
+}
+/* --- Focus effect (consistent with your text inputs) --- */
+#department:focus,
+select:focus {
+    border-color: #007bff; /* Bright blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+    outline: none; /* Remove default browser outline */
+}
