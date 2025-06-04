@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const formMessages = document.getElementById('formMessages'); // Our new div for messages
 
     // Make sure you replace this with YOUR ACTUAL GOOGLE APPS SCRIPT WEB APP URL
-    const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzzT_Eg34mfVtPT6noU2KLEUNigf3_Bucu9N78kDsxOs9qXsC8Yql4POl_vUbvfkD1F/exec";
+    const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzp6DIcWtXTCqpjaC9mSPbbm26-it2Livh3q_A7Fbeq6VmBVoXHuTLN2c9Pew6mIyYm/exec";
 
     contactForm.addEventListener('submit', function(event) {
         event.preventDefault(); // Stop the form from reloading the page
