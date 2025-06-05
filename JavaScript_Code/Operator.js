@@ -14,7 +14,7 @@ document.getElementById('operatorSignupForm').addEventListener('submit', async f
 
     // Replace with your deployed Apps Script Web App URL!
     // Get this URL after deploying your script as a Web App (see Step 3).
-    const webAppUrl = 'https://script.google.com/macros/s/AKfycbxRy_UTcdrqANsAoPzIV6c6AIuaV2-mA2MFO9SvX1lACVAe7RZxZVH3Tf7iiq0_5DFj/exec'; // <--- IMPORTANT!
+    const webAppUrl = 'https://script.google.com/macros/s/AKfycbxsT7nw5hEbR8S6FoDCwqxHsidcOoCqZj3qbzeNjfsz2r_0_SigX7vKG88h2LZwLseq/exec'; // <--- IMPORTANT!
 
     try {
         const response = await fetch(webAppUrl, {
