@@ -1,10 +1,12 @@
 #so what was added. 
+
   An alt account that only works for this arg. 
     Made it to make it look like it's an actual orginazation that sent the player the email
       Account, theworldcia22@gmail.com
       
-#Google type script / app script
-    in this account I also made another code on google's type script
+#Google type script || app script
+
+  in this account I also made another code on google's type script
       NO SHIT WITH THE HELP OF AI 
       code here, https://script.google.com/d/1u-BxSoL_TnvXt-uPuYL-xTC6IEMrHrXGwgD4nOJ7XSdjilFjSwYD37AL/edit?usp=sharing
       I also made more type script versions
@@ -17,9 +19,11 @@
             tells the player they are part of a secreat expirment
 
 #Writing center
+
   there is now a writing center for both filip and john to work on if they want to
     https://docs.google.com/document/d/1cNZzw-wyU1zFMsgp1NX0TWspWj_Q87Yco1Grh-vcs_I/edit?usp=sharing
 
 #Things I tried but are no longer needed
+
   I tired with 2 other api services that could send an email
     one of them couldnt even see the code and the other could only recive the email
