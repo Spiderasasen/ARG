@@ -1,4 +1,44 @@
+* {
+    font-family: arial, helvetica, sans-serif;
+}
 #auido-player-container{
     text-align: center;
     margin-top: 50px;
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+h1{
+    color:  white;
+}
+/*button style*/
+.ghost-button {
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: solid 5px black;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        color: white;
+        background-color: black;
+    }
+
+    & --reverse {
+        @extend .ghost-button;
+        color: white;
+        background-color: black;
+
+        &:hover {
+            color: black;
+            background-color: white;
+        }
+    }
 }
