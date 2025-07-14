@@ -25,6 +25,10 @@
     top: 50%;
     left: 29%;
 }
+.France{
+    top: 66%;
+    left: 40%;
+}
 /*image aligning*/
 img.Right{
     display: block;
@@ -38,6 +42,13 @@ img.Left{
     width: 20%;
     margin-right: 25px;
     margin-left: 100px;
+}
+.FranceLeft{
+    display: block;
+    float: left;
+    width: 20%;
+    margin-right: 25px;
+    margin-left: 50px;
 }
 img.UKRight{
     display: block;
