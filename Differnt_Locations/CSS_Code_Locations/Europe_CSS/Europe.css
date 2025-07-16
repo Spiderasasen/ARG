@@ -29,6 +29,10 @@
     top: 66%;
     left: 40%;
 }
+.Germany{
+    top: 55%;
+    left: 48%;
+}
 /*image aligning*/
 img.Right{
     display: block;
@@ -62,6 +66,13 @@ img.UKLeft{
     width: 30%;
     margin-right: 25px;
     margin-left: 30px;
+}
+img.GermanyRight{
+    display: block;
+    float: right;
+    width: 30%;
+    margin-right: 25px;
+    margin-left: 50px;
 }
 /*text aligning*/
 p.right{
